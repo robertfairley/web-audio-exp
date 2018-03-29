@@ -1,0 +1,21 @@
+{
+  "name": "wat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "aud.js",
+  "scripts": {
+    "build:d": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.3.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1"
+  }
+}

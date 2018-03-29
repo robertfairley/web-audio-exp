@@ -1,0 +1,1 @@
+export const FAST_FOURIER_TRANSFORM_SIZE = 2048;
