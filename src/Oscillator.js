@@ -60,7 +60,7 @@ class Oscillator {
   changeFrequency(event) {
     let newFrequency = Math.floor(event.target.value);
     this.oscNode.frequency.setValueAtTime(newFrequency, this.context.currentTime);
-    this.freqValue.innerText = this.oscNode.frequency.value + ' Hz';
+    this.freqValue.innerText = hz(this.oscNode.frequency.value);
   }
 
   changeVolume(event) {
@@ -73,7 +73,7 @@ class Oscillator {
       return;
 
     this.oscNode.frequency.setValueAtTime(this.initialFrequency, this.context.currentTime);
-    this.freqValue.innerText = `${this.initialFrequency} Hz`;
+    this.freqValue.innerText = hz(this.initialFrequency);
     this.freqRange.value     = this.initialFrequency;
   }
 
