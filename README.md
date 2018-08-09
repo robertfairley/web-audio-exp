@@ -6,6 +6,20 @@ It contains an Oscillator primitive that provides an oscilloscope, a frequency r
 
 The initial app (contained in the `Audio` function) instantiates two Oscillator components with two different default settings.
 
+## Try it
+
+https://robertfairley.github.io/web-audio-exp/
+
+**Two oscillators:**
+
+* Sine
+  * Initial frequency: 440Hz
+  * Adjustable frequency: yes
+  
+* Sawtooth
+  * Initial frequency: 440Hz
+  * Adjustable frequency: yes
+
 ## Build
 
 Install the project dependencies (`npm i`).
