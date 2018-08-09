@@ -9,8 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "Robert Fairley",
-    "rrafairley@gmail.com"
+    "name": "Robert Fairley",
+    "email": "rrafairley@gmail.com"
   },
   "license": "MIT",
   "devDependencies": {
