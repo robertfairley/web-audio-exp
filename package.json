@@ -4,8 +4,8 @@
   "description": "",
   "main": "aud.js",
   "scripts": {
-    "watch": "webpack --mode development --watch",
-    "build": "webpack --mode development",
+    "watch": "./node_modules/.bin/webpack --mode development --watch",
+    "build": "./node_modules/.bin/webpack --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
