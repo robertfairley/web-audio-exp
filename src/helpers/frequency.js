@@ -7,12 +7,15 @@ export function hz(value = Number()) {
   if (typeof value !== 'number') {
     newValue = parseInt(value);
 
-    if (newValue.isNaN)
+    if (Number.isNaN(newValue))
+      throw new Error('This function requires a number or number as string as an argument.');
+  } else {
+    newValue = value;
+    
+    if (Number.isNaN(newValue))
       throw new Error('This function requires a number or number as string as an argument.');
   }
-  else {
-    newValue = value;
-  }
+  
   return `${newValue} Hz`;
 }
 
